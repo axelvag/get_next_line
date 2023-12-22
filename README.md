@@ -2,29 +2,29 @@
 
 42 project:
 
-Il y a 2 versions de ce projet: Avec et sans les bonus.
+There are 2 versions of this project: With and without the bonuses.
 
-Je vous conseil de compiler celle avec _bonus pour avoir tout les fonctionnalite de mon gnl.
+I advise you to compile the one with _bonus to have all the functionality of my gnl.
 
- Le but du projet est d'écrire une fonction C qui permet de lire une ligne (jusqu'à un retour à la ligne) depuis un descripteur de fichier, et de la renvoyer à chaque appel de la fonction.
+ The goal of the project is to write a C function that allows you to read a line (up to a newline) from a file descriptor, and return it each time the function is called.
 
-Voici une brève description du projet et de ses exigences :
-Objectif du Projet :
+Here is a brief description of the project and its requirements:
+Objective of the project :
 
-Le principal objectif de get_next_line est de permettre la lecture d'une ligne terminée par un caractère de fin de ligne ('\n') depuis un fichier descripteur donné (par exemple, un fichier, un flux d'entrée, ou même l'entrée standard).
-Contraintes et Exigences :
+The main purpose of get_next_line is to allow reading a line terminated by an end-of-line character ('\n') from a given file descriptor (e.g., a file, an input stream, or even the standard input).
+Constraints and Requirements:
 
-    Utilisation des Fonctions Système : Les étudiants doivent utiliser uniquement les fonctions système standard autorisées par l'énoncé, telles que read, malloc, et free.
+   - Use of System Functions: Students should use only standard system functions allowed by the statement, such as read, malloc, and free.
 
-    Gestion de la Mémoire : La gestion de la mémoire est cruciale. Les étudiants doivent allouer et libérer la mémoire correctement pour éviter les fuites de mémoire.
+   - Memory Management: Memory management is crucial. Students must allocate and free memory correctly to avoid memory leaks.
 
-    Réentrance : La fonction get_next_line doit être capable de traiter plusieurs descripteurs de fichiers simultanément sans perdre l'état entre les appels.
+   - Reentrancy: The get_next_line function must be able to process multiple file descriptors simultaneously without losing state between calls.
 
-    Fonctionnalités Avancées (Bonus) : Des fonctionnalités avancées peuvent être ajoutées en bonus, comme la gestion de plusieurs descripteurs de fichiers simultanément, la gestion d'autres caractères de fin de ligne, etc.
+   - Advanced Features (Bonus): Advanced features can be added as bonuses, such as handling multiple file descriptors simultaneously, handling other end-of-line characters, etc.
 
-    Norme 42 : Le code doit respecter la norme de codage spécifique à l'école 42.
+   - Standard 42: The code must comply with school-specific coding standard 42.
 
-Utilisation Typique :
+Typical Use:
 
 ```c
 
@@ -44,9 +44,9 @@ int main() {
 }
 ```
 
-Points Clés :
+Key points :
 
-    La fonction get_next_line doit être capable de gérer la lecture progressive d'un fichier jusqu'à la fin du fichier.
-    Elle doit pouvoir gérer la lecture de plusieurs fichiers simultanément sans conflits.
+   The get_next_line function must be able to handle progressive reading of a file until the end of the file.
+   It must be able to handle reading several files simultaneously without conflicts.
 
-La réalisation réussie de ce projet nécessite une compréhension approfondie des opérations d'entrée/sortie en C, de la gestion de la mémoire et de la manipulation des fichiers.
+Successfully completing this project requires a thorough understanding of C input/output operations, memory management, and file manipulation.
