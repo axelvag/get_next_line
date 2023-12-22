@@ -50,3 +50,18 @@ Key points :
    It must be able to handle reading several files simultaneously without conflicts.
 
 Successfully completing this project requires a thorough understanding of C input/output operations, memory management, and file manipulation.
+
+# BONUS 
+
+   - Handling Multiple File Descriptors: Extend the get_next_line function to efficiently handle multiple file descriptors simultaneously. This can be useful for concurrent manipulation of files or input/output streams.
+
+   - Support for Other End of Line Characters: Allow the get_next_line function to recognize end of line characters other than '\n', such as '\r' or '\0', depending on the specific needs of the project.
+
+   - Performance Optimizations: Look for ways to optimize function performance, by minimizing the number of calls to system functions or reducing overall time complexity.
+
+   - Handling Other Specific Cases: Adapt the function to handle specific cases, such as reading lines of a given maximum length, handling spaces or special characters, etc.
+
+   - Improved Error Handling: Improve error handling by providing informative error messages and ensuring clean handling of memory errors or system errors.
+
+   - In-Depth Documentation: Provide detailed documentation explaining how the get_next_line function works, its parameters, its usage, and any added bonus features.
+
